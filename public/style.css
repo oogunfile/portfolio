@@ -6,6 +6,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    height: 70%;
 }
 h1.hello{
     color: #8B5DFF;
@@ -27,10 +28,12 @@ h2.intro{
 .intro-image{
     border-radius: 30%;
     width: 90%;
+    height: 100%;
 }
 .myImage{
     height: 400px;
-    border-radius: 90%;
+    width: 400px;
+    border-radius: 50%;
 }
 .project-image
 {
@@ -44,7 +47,7 @@ h2.intro{
     text-align: left;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
-    color: #353f41;
+    color: #563A9C;
 }
 
 .right{
@@ -59,6 +62,19 @@ h2.intro{
     padding-left: 10px;
 
 } 
+@media (max-width:768px) {
+    .middle{
+        justify-content: center;
+    }
+}
+.logo{
+    display: flex;
+    flex-direction: row;
+    height: 50%;
+    width: 50%;
+    margin-left: 20%;
+}
+
 
 h3{
     padding-left: 70px;
@@ -77,22 +93,30 @@ h3{
 }
 .other-font{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: #353f41;;
+    color: #563A9C;
+    font-size: 2.5rem;
 }
 h4{
     line-height: 45px;
+    font-weight: normal;
 }
 .contact{
     text-align: center;
     padding-bottom: 10px;
 }
+
 .btn{
     background:  #6A42C2 ;
     height: 50px;
-    font-size: 1.5rem;
     color: #FFF7D1;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    
+    font-size: 2rem;
+}
+
+
+.logo-btn{
+    height: 30%;
+    font-size: 2.5rem;
 }
 .linkedin-img{
 
