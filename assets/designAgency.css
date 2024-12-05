@@ -14,7 +14,6 @@ body {
  
   border: 30px ;
   width: 45%;
- 
 
 }
 .tile-image{
@@ -24,8 +23,7 @@ body {
 }
 
 h1 {
-  font-size: 5rem;
-
+  font-size: 4rem;
 }
 .left-card{
   float: left;

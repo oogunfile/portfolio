@@ -1,47 +1,30 @@
-.background-color1{
-    background-color: #FAF6E3;
+body{
+    background-color: #faf4d2;
 }
-.intro-box{
-    display: flex ;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 70%;
-}
+
 h1.hello{
-    color: #8B5DFF;
-    padding-top: 30px;
-    padding-bottom: 40px;
+    color: #8B5DFF !important;
     font-size: 5rem;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 h2.intro{
     color: #563A9C;
-    padding-top: 60px;
-    font-size: 3rem;
-
+    font-size: 2.5rem;
 }
-
 .highlight{
     color: #8B5DFF !important;
 }
-.intro-image{
-    border-radius: 30%;
-    width: 90%;
-    height: 100%;
+.workspace-image{
+    border-radius: 10%;
+    height: 60px;
+    width: 90px;
 }
 .myImage{
     height: 400px;
     width: 400px;
     border-radius: 50%;
 }
-.project-image
-{
-   padding-top: 30px;
-   max-width: 100%;
-   height: 80%;
-    
-}
+
 .font-otherhead{
     text-decoration-line: underline;
     text-align: left;
@@ -50,88 +33,72 @@ h2.intro{
     color: #563A9C;
 }
 
-.right{
-    display:flex;
-    align-items: center;
-    justify-content: left;
-}
-.middle{
-    display:flex;
-    align-items: center;
-    justify-content: left;
-    padding-left: 10px;
 
-} 
-@media (max-width:768px) {
-    .middle{
-        justify-content: center;
-    }
-}
-.logo{
-    display: flex;
-    flex-direction: row;
-    height: 50%;
-    width: 50%;
-    margin-left: 20%;
-}
-
-
-h3{
-    padding-left: 70px;
-}
-
-.visit-btn{
-    margin-left: 50px;
-    width:45%;
-}
-.contact-msg{
-  font-weight: normal;
-  font-size: 2rem;
-  padding-bottom: 70px;
-  padding-top: 70px;
-
-}
-.other-font{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+.text-1{
     color: #563A9C;
-    font-size: 2.5rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.text-2{
+    font-size: 2rem;
 }
 h4{
     line-height: 45px;
     font-weight: normal;
 }
-.contact{
-    text-align: center;
-    padding-bottom: 10px;
-}
 
 .btn{
     background:  #6A42C2 ;
-    height: 50px;
+    height: 40px;
     color: #FFF7D1;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 
-
-.logo-btn{
-    height: 30%;
-    font-size: 2.5rem;
-}
 .linkedin-img{
-
-    padding: 0px 10px 10px 0px ;
+    height: 30px;
+   border-radius: 50%;
+   margin-bottom: 10px;
+}
+.skill-logo{
     height: 50px;
-   border-radius: 20%;
 }
 .copyright{
     text-align: center;
-    padding: 50px;}
+    background-color: #faf4d2;
+    font-size: 1rem;
+    margin-top: 50px;
+}
+h6{
+    color: #6A42C2;
+}
 
-    .background-color2{
-        background-color: #faf4ee;
-    }
+/* projects page */
 
 
+.project-image
+{
+max-width: 100%;
+height: 80%;
+border-radius: 10%; 
+}
+.row{
+    margin-top: 30px;
+}
+.row-1{
+    margin-top:70px;
+}
+.mid-right{
+    text-align: justify;
+    align-content: center;
+}
+.projects{
+    color: #563A9C;
+    font-size: 2.5rem;
+    text-align: center;
+    margin-top: 50px;
+}
+.back{
+   justify-content: center;
+}
 
 /* font-family: "Montserrat", sans-serif; */
