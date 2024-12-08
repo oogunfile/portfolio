@@ -6,91 +6,94 @@
   <title>Document</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
   <style>
-    .background-color{
-      background-color:rgb(82, 107, 169);
-    }
-    .main{
-     
+    .container{
+      border: #1B3C73 solid 20px;
+      border-radius: 20%;
       margin-top: 10%;
+      height: 80%;
+      width: 80%;
     }
-   
-    .card-background{
-      background-color:#f5cdcd;
-    }
-    h1.text2{
-      font-size: 5rem;
-      font-weight: bold;
-      color:rgb(246, 229, 229) ;
-    }
-    h2.text1{
-      font-size: 3rem;
-    }
-    .text2{
-      font-size: 2rem;
-      color:rgb(82, 107, 169);
-      font-family:  "Sacramento", "cursive";
-      text-align: center;
-      font-weight: bold;
-    }
-    .text1{
-      font-family:  'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-      color: rgb(211, 101, 101);
-      text-align: center;
-    }
-    .cake-image
-    {
+
+    .image-1{
+      height: 50%;
+      width: 70%;
       border-radius: 50%;
     }
-    ul{
-      font-size: 1.5rem;
-      list-style-type: none;
-
+   
+    .title{
+      font-size: 3rem ;
+      font-weight: bold;
+      color: #40679E;
+      margin-top: 10px;;
+     
     }
-  
-    .a-div{
-      display: flex;
-      justify-content: center;
+    h2{
+      color: #FF407D;
+    }
+    .text-2{
+      font-family:  "Sacramento", "cursive";
+      color: #FF407D;
+    }
+    .text-1{
+      font-family:  'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      color:#40679E;
+    }
+    .text{
+        text-align: left !important;
+        font-size: 1.5rem;
+    }
+    
+    ul{
+      list-style-type: none;
     }
     .btn{
-      background-color:rgb(82, 107, 169);
-      color:rgb(246, 229, 229) ;
+      background-color:#40679E;
+      color:#F8FAFC;
+      margin-bottom: 10px;
+      width: 20%;  
     }
-   
 
-   
+
+/* media query */
+@media (min-width: 768px) {
+    .text {
+      margin-top: 20px;
+        font-size: 1.5rem; 
+    }
+}
+
+@media (min-width: 1024px) {
+    .text {
+      margin-top: 20px;
+        font-size: 3rem; 
+}
   </style>
+
+
 </head>
 <body>
-<div class="background-color main container">
-<div class="container px-5 py-5" id="custom-cards">
-  <h1 class="text2">Tise is Ten!!!!!! Yippeee</h1>
-  <div class="row row-cols-sm-1 row-cols-lg-2 align-items-stretch g-4 py-10">
-    <div class="col-6">
-      <div class=" card-cover h-100 overflow-hidden  rounded-4 shadow-lg" >
-        <div class="d-flex flex-column h-100 ">
-          <img class="cake-image" height="500"  src="../assets/images/cake2.jpg" alt="birthday cake"  >
-        </div>
-      </div>
+<div class="container text-center">
+  <div > <h1 class="title"> Tise is Ten!!!!!! Yippeee</h1></div>
+  <div class="row align-items-start">
+    <div class="col-7">
+      <div> <img class="image-1" src="../assets/images/cake3.png" alt="birthday cake"  ></div>
+     </div>
+    <div class="col-5">
+      <h2 class=" text"> You are invited </h2>
+      <h3 class="text-1 text"> Date: 19th February</h3> 
+      <h3 class="text-2 text"> What to bring: </h3>
+       <ul  class="text-2 text"> 
+           <li> A gift </li>
+           <li> A big appetite</li>
+       </ul>
     </div>
-    <div class="col-6">
-      <div class="card-background card card-cover h-100   rounded-4 shadow-lg">
-        <div class="d-flex flex-column h-100">
-          <h2 class="text1 pt-5  mb-4 display-6 lh-1 fw-bold">You are invited </h2>
-          <h3 class="text2 pt-3 pb-3"> Date: 19th February</h3> 
-          <h3 class="text1"> What to bring: </h3>
-          <ul  class="mb-5"> 
-              <li class="text1"> A gift </li>
-              <li class="text1"> A big appetite</li>
-          </ul>
-          <div class="a-div">
-          <a class="text2 btn" href="https://www.google.com/maps/@35.7040744,139.5577317,3a,75y,289.6h,87.01t,0.72r/data=!3m6!1e1!3m4!1sgT28ssf0BB2LxZ63JNcL1w!2e0!7i13312!8i6656 ">Venue</a>
-        </div>
-        </div>
-      </div>
-    </div>
+    <div class="row align-items">
+      <div col>
+    <a class="btn text-2" href="https://www.google.com/maps/@35.7040744,139.5577317,3a,75y,289.6h,87.01t,0.72r/data=!3m6!1e1!3m4!1sgT28ssf0BB2LxZ63JNcL1w!2e0!7i13312!8i6656 ">Venue</a>
+  </div> 
+</div>
   </div>
-</div>
-</div>
+  </div>
 </body>
 </html>
 
