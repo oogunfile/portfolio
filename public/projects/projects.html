@@ -8,10 +8,16 @@
     <style>
       
 .projects{
-    color: #563A9C;
     font-size: 2.5rem;
-    text-align: center;
-    margin-top: 50px;
+    margin: 20px 30px;
+    text-decoration-line: underline;
+    text-align: left;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    color: #563A9C;
+}
+.container{
+  width: 80%;
 }
 body{
     background-color: #faf4d2;
@@ -21,6 +27,11 @@ body{
 }
 .back{
    justify-content: center;
+}
+.card-text{
+  color: #563A9C;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1.3rem;
 }
 .btn{
     background:  #6A42C2 ;
@@ -42,16 +53,29 @@ body{
   <section>
     <h2 class="projects">Projects</h2>
         <div class="album py-5 bg-body-tertiary">
-        <div class="containerProject">
+        <div class="container">
           <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
             <div class="col">
               <div class="card shadow-sm">
-                <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="../assets/images/constructionCompany.png" alt=""><rect width="100%" height="100%" fill="#55595c"></rect>
+                <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="./images/rockPaperScissors_img.png" alt=""><rect width="100%" height="100%" fill="#55595c"></rect>
+                <div class="card-body">
+                  <p class="card-text">Rock, Paper, Scissors</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-sm btn-outline-secondary" onclick="window.location.href='../rock_paper_scissors/rock_paper_scissors.html'">View</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card shadow-sm">
+                <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="./images/constructionCompany.png" alt=""><rect width="100%" height="100%" fill="#55595c"></rect>
                 <div class="card-body">
                   <p class="card-text">Dev Construction</p>
                   <div class="d-flex justify-content-between align-items-center">
                     <div class="btn-group">
-                      <button type="button" class="btn btn-sm btn-outline-secondary" onclick="window.location.href='./designAgency.html'">View</button>
+                      <button type="button" class="btn btn-sm btn-outline-secondary" onclick="window.location.href='../constructionCompany/constructionCompany.html'">View</button>
                     </div>
                   </div>
                 </div>
@@ -59,12 +83,12 @@ body{
             </div>
             <div class="col">
                 <div class="card shadow-sm">
-                  <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="../assets/images/photograph.png" alt=""><rect width="100%" height="100%" fill="#55595c"></rect>
+                  <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="./images/photograph.png" alt=""><rect width="100%" height="100%" fill="#55595c"></rect>
                   <div class="card-body">
                     <p class="card-text">Motivational Quote</p>
                     <div class="d-flex justify-content-between align-items-center">
                       <div class="btn-group">
-                        <button type="button" class="btn btn-sm btn-outline-secondary" onclick="window.location.href='../assets/images/photograph.png'">View</button>
+                        <button type="button" class="btn btn-sm btn-outline-secondary" onclick="window.location.href='../motivational_quotes/quotes.html'">View</button>
                       </div>
                     </div>
                   </div>
@@ -72,25 +96,23 @@ body{
               </div>
               <div class="col">
                 <div class="card shadow-sm">
-                  <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="../assets/images/birthdayInvite.png" alt=""><rect width="100%" height="100%" fill="#55595c"></rect>
+                  <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="./images/birthdayInvite.png" alt=""><rect width="100%" height="100%" fill="#55595c"></rect>
                   <div class="card-body">
                     <p class="card-text">Birthday Invitation</p>
                     <div class="d-flex justify-content-between align-items-center">
                       <div class="btn-group">
-                        <button type="button" class="btn btn-sm btn-outline-secondary" onclick="window.location.href='./birthday.html'">View</button>
+                        <button type="button" class="btn btn-sm btn-outline-secondary" onclick="window.location.href='../birthday/birthday.html'">View</button>
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
-           
-           
             </div>
         </section> 
         <!-- footer -->
         <section class="background-color2">
             <footer >
-                <div class="copyright"><p class=" text-1"> © seunogunfile </p>
+                <div class="copyright"><p class=" text-1"> ©SeunOgunfile </p>
                 </div>
               </footer>
            </section>

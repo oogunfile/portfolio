@@ -5,9 +5,11 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 95vh;
+  
 }
 .main {
   flex: 1;
+  width: 90%;
   
 }
 .card{
